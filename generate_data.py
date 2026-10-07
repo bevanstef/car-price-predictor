@@ -47,3 +47,38 @@ price = (price * 1_000_000).round(-4)
 
 print("Sample:", brand[0], model[0], "-> Rs", price[0])
 
+# Combine everything into one table
+df = pd.DataFrame({
+    "brand": brand,
+    "model": model,
+    "year": year,
+    "mileage_km": mileage,
+    "fuel": fuel,
+    "transmission": gear,
+    "engine_cc": engine_cc,
+    "price_lkr": price,
+})
+
+# mess up dataset
+
+# 1. Inconsistent text: randomly mess up casing on some brand names
+messy_idx = rng.choice(df.index, 150, replace=False)
+df.loc[messy_idx, "brand"] = df.loc[messy_idx, "brand"].str.upper()
+
+# 2. Missing values: blank out some mileage and fuel entries
+df.loc[rng.choice(df.index, 80, replace=False), "mileage_km"] = np.nan
+df.loc[rng.choice(df.index, 50, replace=False), "fuel"] = np.nan
+
+# 3. Outliers: a few unrealistic prices and mileages
+df.loc[rng.choice(df.index, 10, replace=False), "price_lkr"] = 50000
+df.loc[rng.choice(df.index, 10, replace=False), "mileage_km"] = 950000
+
+# 4. Duplicate rows
+dupes = df.sample(30, random_state=1)
+df = pd.concat([df, dupes], ignore_index=True)
+
+# Shuffle rows so planted issues aren't grouped together
+df = df.sample(frac=1, random_state=2).reset_index(drop=True)
+
+df.to_csv("cars_raw.csv", index=False)
+print(f"Saved {len(df)} rows (with intentional mess) to cars_raw.csv")

@@ -4,4 +4,5 @@ node_modules/
 dist/
 history.db
 model.joblib
-cars.csv
+cars_raw.csv
+cars_clean.csv
