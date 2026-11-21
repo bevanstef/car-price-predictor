@@ -1,0 +1,72 @@
+"""
+clean_data.py - Data Cleaning Pipeline for Used Car Dataset
+
+Clean Architecture Step:
+- Reads raw messy dataset (`cars_raw.csv`)
+- Executes discrete, modular cleaning steps:
+  1. Fix brand text casing
+  2. Drop duplicate rows
+  3. Impute or handle missing values
+  4. Filter out impossible planted outliers
+- Saves reproducible clean dataset (`cars_clean.csv`)
+"""
+
+import pandas as pd
+import numpy as np
+
+
+def load_raw_data(filepath: str = "cars_raw.csv") -> pd.DataFrame:
+    """Load the raw messy dataset from disk."""
+    return pd.read_csv(filepath)
+
+
+def fix_brand_casing(df: pd.DataFrame) -> pd.DataFrame:
+    """Standardize brand names to Title Case (e.g., 'HONDA' -> 'Honda')."""
+    # TODO: Implement step-by-step
+    return df
+
+
+def remove_duplicates(df: pd.DataFrame) -> pd.DataFrame:
+    """Drop exact duplicate records."""
+    # TODO: Implement step-by-step
+    return df
+
+
+def handle_missing_values(df: pd.DataFrame) -> pd.DataFrame:
+    """Handle missing values for mileage_km and fuel."""
+    # TODO: Implement step-by-step
+    return df
+
+
+def remove_outliers(df: pd.DataFrame) -> pd.DataFrame:
+    """Remove corrupt planted outliers (e.g. 50,000 price & 950,000 km mileage)."""
+    # TODO: Implement step-by-step
+    return df
+
+
+def save_cleaned_data(df: pd.DataFrame, output_path: str = "cars_clean.csv") -> None:
+    """Save the cleaned dataframe to CSV."""
+    df.to_csv(output_path, index=False)
+    print(f"[OK] Cleaned dataset saved to {output_path}")
+
+
+def main():
+    print("--- Starting Data Cleaning Pipeline ---")
+    df_raw = load_raw_data()
+    print(f"Raw shape: {df_raw.shape}")
+
+    # Pipeline execution flow
+    df_clean = (
+        df_raw
+        .pipe(fix_brand_casing)
+        .pipe(remove_duplicates)
+        .pipe(handle_missing_values)
+        .pipe(remove_outliers)
+    )
+
+    print(f"Cleaned shape: {df_clean.shape}")
+    save_cleaned_data(df_clean)
+
+
+if __name__ == "__main__":
+    main()
