@@ -22,13 +22,16 @@ def load_raw_data(filepath: str = "cars_raw.csv") -> pd.DataFrame:
 
 def fix_brand_casing(df: pd.DataFrame) -> pd.DataFrame:
     """Standardize brand names to Title Case (e.g., 'HONDA' -> 'Honda')."""
-    # TODO: Implement step-by-step
+    df = df.copy()
+    df["brand"] = df["brand"].str.title()
+    print(f"Unique brands after casing fix: {df['brand'].nunique()} (expected: 8)")
     return df
 
 
 def remove_duplicates(df: pd.DataFrame) -> pd.DataFrame:
     """Drop exact duplicate records."""
     # TODO: Implement step-by-step
+    return df
     return df
 
 
