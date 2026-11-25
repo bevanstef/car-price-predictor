@@ -59,7 +59,11 @@ def handle_missing_values(df: pd.DataFrame) -> pd.DataFrame:
 
 def remove_outliers(df: pd.DataFrame) -> pd.DataFrame:
     """Remove corrupt planted outliers (e.g. 50,000 price & 950,000 km mileage)."""
-    # TODO: Implement step-by-step
+    # Remove rows with planted outliers: price == 50000 (low price outlier) and mileage_km == 950000 (high mileage outlier)
+    initial_len = len(df)
+    df = df[(df['price_lkr'] != 50000) & (df['mileage_km'] != 950000)]
+    removed = initial_len - len(df)
+    print(f"Removed {removed} planted outlier rows")
     return df
 
 
