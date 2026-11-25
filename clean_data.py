@@ -43,7 +43,10 @@ def handle_missing_values(df: pd.DataFrame) -> pd.DataFrame:
 
 def remove_outliers(df: pd.DataFrame) -> pd.DataFrame:
     """Remove corrupt planted outliers (e.g. 50,000 price & 950,000 km mileage)."""
-    # TODO: Implement step-by-step
+    before = len(df)
+    df = df.drop_duplicates()
+    dropped = before - len(df)
+    print(f"Dropped {dropped} duplicate rows (remaining: {len(df)})")
     return df
 
 

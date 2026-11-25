@@ -162,7 +162,6 @@ Micro,Panda,2021,27019.0,Hybrid,Automatic,1800,3780000.0
 Mitsubishi,Montero,2017,119766.0,Petrol,Manual,660,5150000.0
 Mitsubishi,Lancer,2008,178734.0,Petrol,Automatic,1500,1830000.0
 Mitsubishi,Mirage,2023,,Hybrid,Manual,660,5080000.0
-Nissan,X-Trail,2012,109511.0,Hybrid,Automatic,1500,4890000.0
 Perodua,Axia,2021,61382.0,Diesel,Manual,1500,2240000.0
 Micro,Geely,2008,194884.0,Petrol,Automatic,1800,1070000.0
 Suzuki,Alto,2009,160582.0,Petrol,Automatic,1300,1070000.0
@@ -214,7 +213,6 @@ Honda,Vezel,2022,42456.0,Hybrid,Automatic,1000,11310000.0
 Perodua,Axia,2020,52997.0,Petrol,Automatic,800,1990000.0
 Nissan,Sunny,2014,117523.0,Diesel,Automatic,660,2580000.0
 Mitsubishi,Montero,2006,195924.0,,Automatic,1800,2640000.0
-Suzuki,Alto,2011,157427.0,Hybrid,Manual,1300,1470000.0
 Suzuki,Every,2011,192997.0,Petrol,Automatic,1000,1380000.0
 Nissan,Sunny,2005,260204.0,Diesel,Automatic,660,980000.0
 Nissan,Leaf,2015,139494.0,Petrol,Manual,1800,3840000.0
@@ -310,7 +308,6 @@ Mitsubishi,Lancer,2018,97730.0,Petrol,Automatic,1000,4190000.0
 Micro,Geely,2015,140382.0,Diesel,Manual,1000,1450000.0
 Honda,Fit,2009,208305.0,Diesel,Manual,660,1550000.0
 Kia,Picanto,2017,136106.0,Diesel,Automatic,1000,3050000.0
-Micro,Geely,2017,94804.0,Hybrid,Manual,2000,2620000.0
 Toyota,Corolla,2005,128046.0,Petrol,Automatic,660,1860000.0
 Suzuki,Wagon R,2020,33556.0,,Manual,2000,3880000.0
 Toyota,Aqua,2023,21788.0,Petrol,Automatic,1800,9440000.0
@@ -903,7 +900,6 @@ Mitsubishi,Lancer,2007,176374.0,Petrol,Automatic,1000,1470000.0
 Micro,Geely,2020,74414.0,Electric,Manual,2000,3340000.0
 Nissan,X-Trail,2015,60672.0,,Manual,800,4650000.0
 Toyota,Aqua,2012,63793.0,Diesel,Automatic,800,3700000.0
-Nissan,X-Trail,2021,46832.0,Diesel,Automatic,1300,7940000.0
 Toyota,Vitz,2006,201078.0,Petrol,Automatic,1000,1310000.0
 Nissan,March,2016,114203.0,Petrol,Automatic,660,50000.0
 Mitsubishi,Montero,2023,30550.0,Petrol,Automatic,1800,12240000.0
@@ -1203,7 +1199,6 @@ Toyota,Axio,2016,64718.0,Hybrid,Automatic,660,5500000.0
 Suzuki,Wagon R,2019,59245.0,Petrol,Manual,1300,3470000.0
 Suzuki,Every,2015,,Hybrid,Manual,1800,2600000.0
 Kia,Rio,2008,223375.0,Hybrid,Automatic,800,1460000.0
-Perodua,Bezza,2014,37907.0,Hybrid,Manual,800,1720000.0
 Mitsubishi,Mirage,2016,99751.0,Petrol,Automatic,800,2620000.0
 Suzuki,Swift,2012,173316.0,Petrol,Automatic,1800,1990000.0
 Nissan,Sunny,2007,199342.0,Petrol,Automatic,2000,1500000.0
@@ -1449,7 +1444,6 @@ Perodua,Bezza,2016,121873.0,Petrol,Automatic,660,1580000.0
 Toyota,Vitz,2010,135706.0,Diesel,Automatic,1300,2150000.0
 Micro,Geely,2018,38654.0,Diesel,Automatic,660,2600000.0
 Suzuki,Alto,2013,167908.0,Petrol,Automatic,1300,1460000.0
-Honda,Fit,2009,183423.0,Electric,Automatic,2000,2740000.0
 Toyota,Prius,2006,223970.0,Diesel,Manual,2000,2300000.0
 Honda,Fit,2016,77950.0,Petrol,Manual,1300,3720000.0
 Honda,Civic,2008,186502.0,Petrol,Automatic,1300,2160000.0
@@ -1562,7 +1556,6 @@ Mitsubishi,Mirage,2021,40302.0,Petrol,Automatic,1000,4420000.0
 Perodua,Bezza,2012,68805.0,Hybrid,Automatic,800,1330000.0
 Toyota,Aqua,2020,41302.0,Diesel,Manual,660,6050000.0
 Kia,Sportage,2007,177046.0,Diesel,Automatic,1800,2100000.0
-Toyota,Vitz,2009,219890.0,Petrol,Automatic,660,1490000.0
 Nissan,March,2013,179519.0,Hybrid,Automatic,1800,2450000.0
 Perodua,Axia,2020,70791.0,Diesel,Automatic,1300,2500000.0
 Micro,Panda,2010,154856.0,Petrol,Automatic,1000,910000.0
@@ -1573,7 +1566,6 @@ Honda,Grace,2008,172218.0,Petrol,Manual,1800,1950000.0
 Honda,Grace,2006,237642.0,Petrol,Automatic,1500,1720000.0
 Toyota,Aqua,2013,127661.0,Petrol,Automatic,1000,3450000.0
 Honda,Vezel,2016,93489.0,Petrol,Manual,1800,5220000.0
-Mitsubishi,Montero,2016,117246.0,Hybrid,Manual,800,5700000.0
 Suzuki,Swift,2016,49809.0,Petrol,Automatic,1000,2810000.0
 Suzuki,Every,2011,151806.0,Petrol,Manual,1800,1470000.0
 Toyota,Corolla,2005,234295.0,Petrol,Manual,2000,1650000.0
@@ -1676,7 +1668,6 @@ Honda,Fit,2011,132074.0,Hybrid,Automatic,1300,2590000.0
 Mitsubishi,Montero,2005,300000.0,Petrol,Manual,1500,1700000.0
 Perodua,Axia,2010,,Electric,Automatic,1500,920000.0
 Perodua,Bezza,2013,144067.0,Diesel,Automatic,800,1380000.0
-Nissan,March,2022,25197.0,Hybrid,Automatic,1500,6300000.0
 Suzuki,Every,2016,68962.0,Petrol,Manual,1000,2250000.0
 Micro,Geely,2009,197194.0,Hybrid,Manual,800,900000.0
 Perodua,Bezza,2023,19017.0,Petrol,Manual,660,2950000.0
@@ -1866,7 +1857,6 @@ Perodua,Bezza,2014,130223.0,Hybrid,Automatic,660,1670000.0
 Toyota,Aqua,2010,166076.0,Diesel,Automatic,1300,2760000.0
 Suzuki,Every,2008,181275.0,Petrol,Automatic,1000,1230000.0
 Micro,Panda,2021,51320.0,Petrol,Manual,1800,2650000.0
-Honda,Grace,2009,134272.0,,Automatic,1800,2830000.0
 Kia,Picanto,2010,168994.0,Petrol,Automatic,660,1250000.0
 Nissan,Sunny,2016,91537.0,Hybrid,Automatic,2000,4680000.0
 Micro,Panda,2023,19271.0,Petrol,Automatic,2000,3830000.0
@@ -1927,7 +1917,6 @@ Kia,Rio,2007,197242.0,Petrol,Automatic,1000,1460000.0
 Micro,Geely,2011,82412.0,Petrol,Automatic,2000,1720000.0
 Suzuki,Every,2022,45199.0,Hybrid,Automatic,1300,5160000.0
 Honda,Grace,2019,44852.0,Diesel,Manual,1500,5900000.0
-Toyota,Axio,2008,178796.0,Petrol,Automatic,800,1960000.0
 Kia,Sportage,2022,30306.0,Petrol,Automatic,1500,7780000.0
 Mitsubishi,Lancer,2010,229889.0,Petrol,Automatic,1300,1670000.0
 Honda,Civic,2015,81565.0,Petrol,Automatic,2000,5520000.0
@@ -1971,13 +1960,11 @@ Micro,Panda,2008,299482.0,Electric,Automatic,1800,840000.0
 Mitsubishi,Montero,2010,215645.0,Diesel,Manual,2000,3350000.0
 Micro,Geely,2024,15797.0,Hybrid,Automatic,660,4450000.0
 Toyota,Axio,2013,155789.0,Diesel,Automatic,1500,3660000.0
-Honda,Grace,2010,236417.0,Diesel,Automatic,1500,2450000.0
 Micro,Panda,2024,6065.0,Petrol,Manual,1000,3500000.0
 Perodua,Bezza,2012,202377.0,Petrol,Automatic,2000,1350000.0
 Nissan,Leaf,2021,34074.0,Petrol,Manual,1300,6110000.0
 Perodua,Bezza,2016,66861.0,Hybrid,Automatic,1500,2410000.0
 Kia,Sportage,2010,250238.0,Petrol,Automatic,1300,2150000.0
-Kia,Sportage,2008,190466.0,Petrol,Automatic,1500,2290000.0
 Honda,Civic,2009,276891.0,Hybrid,Manual,1000,2170000.0
 Mitsubishi,Montero,2005,287281.0,Petrol,Automatic,1300,1680000.0
 Suzuki,Wagon R,2014,89623.0,Hybrid,Automatic,2000,2870000.0
@@ -2006,7 +1993,6 @@ Nissan,Leaf,2015,98273.0,Petrol,Automatic,2000,4870000.0
 Kia,Rio,2020,43193.0,Diesel,Manual,800,4690000.0
 Nissan,March,2011,204294.0,Petrol,Manual,1300,1350000.0
 Nissan,X-Trail,2024,14528.0,Petrol,Manual,1000,9870000.0
-Kia,Picanto,2008,241089.0,Hybrid,Automatic,1000,1290000.0
 Perodua,Bezza,2021,29928.0,Petrol,Automatic,1800,3090000.0
 Perodua,Axia,2022,36153.0,Hybrid,Automatic,1300,3040000.0
 Kia,Sportage,2017,84154.0,Petrol,Manual,800,4040000.0
@@ -2077,7 +2063,6 @@ Toyota,Corolla,2016,96388.0,Electric,Manual,1800,5720000.0
 Kia,Picanto,2005,300000.0,Petrol,Automatic,1500,810000.0
 Kia,Sportage,2024,16342.0,Hybrid,Manual,2000,11380000.0
 Mitsubishi,Mirage,2017,75662.0,Hybrid,Manual,1800,3910000.0
-Perodua,Axia,2005,234345.0,Petrol,Automatic,1500,510000.0
 Suzuki,Swift,2010,138592.0,Petrol,Automatic,1300,1620000.0
 Nissan,X-Trail,2008,158611.0,Diesel,Automatic,800,2340000.0
 Micro,Panda,2007,156311.0,Electric,Automatic,2000,1070000.0
@@ -2105,8 +2090,6 @@ Honda,Civic,2023,15834.0,Hybrid,Manual,2000,11820000.0
 Honda,Civic,2006,131078.0,,Automatic,1800,2390000.0
 Kia,Picanto,2005,183358.0,Hybrid,Automatic,660,1220000.0
 Mitsubishi,Lancer,2019,74702.0,Petrol,Automatic,1300,5540000.0
-Mitsubishi,Mirage,2019,50104.0,Petrol,Automatic,1300,4110000.0
-Mitsubishi,Montero,2015,74863.0,Hybrid,Manual,2000,6400000.0
 Perodua,Bezza,2005,166018.0,Hybrid,Automatic,1500,880000.0
 Mitsubishi,Lancer,2012,113202.0,Hybrid,Automatic,1000,3600000.0
 Mitsubishi,Lancer,2008,223100.0,Diesel,Manual,1500,1580000.0
@@ -2122,7 +2105,6 @@ Suzuki,Alto,2020,39052.0,Petrol,Automatic,800,2910000.0
 Nissan,March,2019,58556.0,Petrol,Automatic,1500,3850000.0
 Suzuki,Swift,2015,125313.0,Petrol,Automatic,1500,2660000.0
 Nissan,March,2014,114415.0,Diesel,Automatic,660,2250000.0
-Toyota,Axio,2005,133881.0,Petrol,Automatic,1000,1780000.0
 Honda,Vezel,2019,53548.0,Petrol,Automatic,660,7710000.0
 Mitsubishi,Mirage,2008,163782.0,Petrol,Automatic,1300,1490000.0
 Perodua,Bezza,2012,107819.0,Diesel,Automatic,2000,1470000.0
@@ -2226,7 +2208,6 @@ Mitsubishi,Mirage,2019,70597.0,Petrol,Automatic,1800,4060000.0
 Kia,Sportage,2018,99260.0,Petrol,Automatic,2000,6110000.0
 Kia,Sportage,2021,37498.0,Hybrid,Automatic,1500,8860000.0
 Perodua,Bezza,2010,122390.0,Diesel,Automatic,1000,1130000.0
-Toyota,Corolla,2007,168126.0,Hybrid,Manual,1300,2380000.0
 Perodua,Bezza,2024,13932.0,Petrol,Automatic,1300,4110000.0
 Mitsubishi,Mirage,2005,294377.0,Petrol,Automatic,1800,940000.0
 Toyota,Axio,2018,85448.0,Petrol,Manual,660,4300000.0
@@ -2246,7 +2227,6 @@ Toyota,Corolla,2011,120087.0,Diesel,Automatic,2000,4090000.0
 Mitsubishi,Lancer,2017,88138.0,Diesel,Manual,1000,3610000.0
 Perodua,Bezza,2018,74094.0,Diesel,Automatic,660,2080000.0
 Honda,Fit,2013,162182.0,Petrol,Automatic,2000,3180000.0
-Suzuki,Wagon R,2009,99109.0,Diesel,Automatic,1800,1860000.0
 Mitsubishi,Lancer,2022,27170.0,Electric,Automatic,800,7390000.0
 Toyota,Corolla,2018,81514.0,Diesel,Automatic,1300,5880000.0
 Nissan,Leaf,2008,97326.0,Petrol,Automatic,1500,2610000.0
@@ -2618,7 +2598,6 @@ Nissan,March,2013,166412.0,Diesel,Manual,1000,1830000.0
 Honda,Grace,2021,51016.0,Hybrid,Manual,1800,8070000.0
 Suzuki,Every,2017,65123.0,Hybrid,Manual,660,3140000.0
 Honda,Civic,2012,133544.0,Petrol,Automatic,1500,3780000.0
-Suzuki,Swift,2016,134488.0,Petrol,Manual,1500,2740000.0
 Kia,Picanto,2008,58741.0,Petrol,Automatic,1800,1810000.0
 Honda,Civic,2007,227077.0,Hybrid,Automatic,1500,2330000.0
 Micro,Geely,2009,195999.0,Hybrid,Manual,1300,1020000.0
@@ -2656,7 +2635,6 @@ Toyota,Axio,2010,120373.0,Diesel,Automatic,1000,2850000.0
 Mitsubishi,Montero,2022,36778.0,Petrol,Manual,1500,10310000.0
 Honda,Fit,2020,70200.0,Hybrid,Automatic,1300,6290000.0
 Perodua,Bezza,2014,114022.0,Hybrid,Manual,1500,1700000.0
-Suzuki,Swift,2006,292260.0,Petrol,Automatic,1500,880000.0
 Toyota,Prius,2008,228912.0,Petrol,Automatic,1300,2280000.0
 Micro,Panda,2013,109175.0,Petrol,Manual,1000,1210000.0
 Kia,Picanto,2005,133903.0,Electric,Automatic,660,1450000.0
@@ -2687,7 +2665,6 @@ Kia,Picanto,2018,104386.0,Petrol,Automatic,800,2910000.0
 Perodua,Bezza,2023,25563.0,Petrol,Manual,1300,3350000.0
 Toyota,Aqua,2006,152619.0,Petrol,Manual,1300,1760000.0
 Honda,Grace,2008,249868.0,Hybrid,Automatic,2000,2250000.0
-Kia,Picanto,2005,213427.0,Diesel,Automatic,1300,940000.0
 Honda,Grace,2005,283284.0,Diesel,Automatic,800,1320000.0
 Honda,Fit,2013,237324.0,Petrol,Manual,1500,2050000.0
 Honda,Fit,2017,94722.0,Petrol,Automatic,660,3600000.0
@@ -2797,7 +2774,6 @@ Suzuki,Wagon R,2013,47233.0,Petrol,Automatic,660,2110000.0
 Honda,Vezel,2011,142723.0,Petrol,Manual,660,3040000.0
 Toyota,Prius,2010,115367.0,Petrol,Automatic,1500,3920000.0
 Micro,Panda,2023,25541.0,Petrol,Automatic,1500,3760000.0
-Micro,Panda,2023,34067.0,Hybrid,Automatic,800,3940000.0
 Toyota,Aqua,2020,70676.0,Petrol,Manual,2000,7320000.0
 Mitsubishi,Mirage,2019,74091.0,Petrol,Manual,1800,3470000.0
 Nissan,Sunny,2005,156137.0,Petrol,Manual,660,1180000.0
@@ -2823,7 +2799,6 @@ Micro,Geely,2016,118164.0,Diesel,Manual,2000,2180000.0
 Kia,Rio,2007,270197.0,Hybrid,Automatic,800,1300000.0
 Honda,Vezel,2022,,Electric,Automatic,800,11600000.0
 Toyota,Prius,2010,189300.0,Petrol,Automatic,1800,3510000.0
-Mitsubishi,Lancer,2008,223100.0,Diesel,Manual,1500,1580000.0
 Micro,Panda,2018,69508.0,Petrol,Automatic,1500,2340000.0
 Perodua,Bezza,2009,292169.0,Diesel,Automatic,1500,740000.0
 Nissan,X-Trail,2012,160366.0,Petrol,Automatic,2000,3670000.0
@@ -2871,7 +2846,6 @@ Micro,Geely,2005,167473.0,Diesel,Automatic,800,750000.0
 Honda,Civic,2010,158646.0,Petrol,Manual,1000,2600000.0
 Toyota,Vitz,2022,45285.0,Petrol,Automatic,2000,6290000.0
 Suzuki,Swift,2006,106760.0,Petrol,Manual,1000,1250000.0
-Micro,Geely,2022,34414.0,Diesel,Manual,800,2750000.0
 Kia,Rio,2019,47995.0,Electric,Manual,1800,6150000.0
 Kia,Sportage,2022,28637.0,Hybrid,Manual,2000,8700000.0
 Perodua,Axia,2005,126749.0,Hybrid,Manual,800,580000.0
@@ -2910,7 +2884,6 @@ Mitsubishi,Mirage,2011,127913.0,Petrol,Automatic,1500,2010000.0
 Perodua,Bezza,2012,290477.0,Hybrid,Automatic,1500,920000.0
 Suzuki,Wagon R,2015,,Hybrid,Manual,1000,2380000.0
 Honda,Fit,2022,15308.0,Petrol,Automatic,1000,6680000.0
-Perodua,Axia,2017,93313.0,Hybrid,Automatic,2000,2060000.0
 Nissan,Sunny,2014,144442.0,Diesel,Manual,1800,2650000.0
 Kia,Rio,2018,99930.0,Hybrid,Automatic,800,4080000.0
 Toyota,Prius,2015,141726.0,Petrol,Automatic,1500,4910000.0
@@ -2933,7 +2906,6 @@ Suzuki,Every,2013,104962.0,Petrol,Manual,1500,2140000.0
 Perodua,Axia,2008,60913.0,Diesel,Manual,1000,860000.0
 Kia,Rio,2006,234252.0,Petrol,Automatic,660,1070000.0
 Mitsubishi,Montero,2015,142138.0,Electric,Manual,1000,6060000.0
-Mitsubishi,Lancer,2014,98684.0,Petrol,Automatic,1300,3430000.0
 Perodua,Bezza,2023,20684.0,Diesel,Automatic,2000,4130000.0
 Toyota,Vitz,2020,23171.0,Petrol,Manual,1800,5200000.0
 Nissan,X-Trail,2024,9351.0,Petrol,Automatic,1000,11400000.0
@@ -2944,7 +2916,6 @@ Perodua,Axia,2021,24187.0,Petrol,Automatic,1000,2500000.0
 Micro,Geely,2007,27500.0,Petrol,Manual,1800,1200000.0
 Perodua,Axia,2019,52632.0,Hybrid,Manual,1800,2070000.0
 Kia,Sportage,2019,77656.0,Petrol,Automatic,1800,7340000.0
-Perodua,Bezza,2021,38046.0,Petrol,Automatic,1500,2850000.0
 Toyota,Vitz,2015,44473.0,Petrol,Automatic,800,3220000.0
 Mitsubishi,Mirage,2024,11249.0,Diesel,Automatic,800,6180000.0
 Nissan,Leaf,2016,99808.0,Petrol,Automatic,660,4370000.0
@@ -2991,7 +2962,6 @@ Suzuki,Alto,2019,83468.0,Petrol,Manual,1300,2660000.0
 Mitsubishi,Lancer,2023,21363.0,Diesel,Automatic,1800,8250000.0
 Perodua,Axia,2011,197797.0,Electric,Automatic,800,970000.0
 Honda,Civic,2005,300000.0,Petrol,Automatic,800,1120000.0
-Suzuki,Wagon R,2015,,Hybrid,Manual,1000,2380000.0
 Toyota,Vitz,2023,,Petrol,Automatic,2000,8140000.0
 Kia,Rio,2007,41838.0,Petrol,Automatic,1800,2250000.0
 Toyota,Axio,2017,85413.0,Petrol,Automatic,1800,5480000.0
