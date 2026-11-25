@@ -30,14 +30,30 @@ def fix_brand_casing(df: pd.DataFrame) -> pd.DataFrame:
 
 def remove_duplicates(df: pd.DataFrame) -> pd.DataFrame:
     """Drop exact duplicate records."""
-    # TODO: Implement step-by-step
-    return df
+    before = len(df)
+    df = df.drop_duplicates()
+    dropped = before - len(df)
+    print(f"Dropped {dropped} duplicate rows (remaining: {len(df)})")
     return df
 
 
 def handle_missing_values(df: pd.DataFrame) -> pd.DataFrame:
-    """Handle missing values for mileage_km and fuel."""
-    # TODO: Implement step-by-step
+    """Handle missing values for mileage_km (by year median) and fuel (by model mode)."""
+    df = df.copy()
+    mileage_missing = df["mileage_km"].isna().sum()
+    fuel_missing = df["fuel"].isna().sum()
+
+    # 1. Impute mileage_km using the median mileage of cars from the same manufacturing year
+    year_median_mileage = df.groupby("year")["mileage_km"].transform("median")
+    df["mileage_km"] = df["mileage_km"].fillna(year_median_mileage).fillna(df["mileage_km"].median())
+
+    # 2. Impute fuel using the most frequent (mode) fuel type for each car model
+    model_mode_fuel = df.groupby("model")["fuel"].apply(
+        lambda s: s.mode().iloc[0] if not s.mode().empty else "Petrol"
+    )
+    df["fuel"] = df["fuel"].fillna(df["model"].map(model_mode_fuel))
+
+    print(f"Imputed missing values: {mileage_missing} mileage rows & {fuel_missing} fuel rows")
     return df
 
 
