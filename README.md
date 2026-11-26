@@ -59,3 +59,49 @@ car-price-predictor/
 3. **API Request:** `POST /predict` sends a JSON payload to the FastAPI backend.
 4. **Validation:** Pydantic strictly validates types, allowed categorical values, and numeric ranges.
 5. **Inference:** Pre-loaded scikit-learn pipeline transforms features and predicts price in LKR.
+
+---
+
+## 📈 Model Performance & Evaluation
+
+Both models were evaluated on an 80/20 train-test split (`random_state=42`) using the cleaned dataset:
+
+| Model | $R^2$ Score | Mean Absolute Error (MAE) |
+|---|---|---|
+| **Linear Regression (Baseline)** | 0.8086 | LKR 792,045.77 |
+| **Random Forest Regressor** (Winner) | **0.9517** | **LKR 353,225.00** |
+
+The best model is bundled directly with the scikit-learn `ColumnTransformer` (One-Hot Encoder + Passthrough) into `model.joblib`.
+
+---
+
+## 💻 Running the Project Locally
+
+### 1. Backend (FastAPI)
+```powershell
+# Create & activate virtual environment
+python -m venv venv
+.\venv\Scripts\Activate.ps1
+
+# Install requirements
+pip install -r requirements.txt
+
+# Run the data cleaning pipeline
+python clean_data.py
+
+# Train the model and generate model.joblib
+python train.py
+
+# Start the API server
+uvicorn app:app --reload --port 8000
+```
+Swagger API docs available at: `http://127.0.0.1:8000/docs`
+
+### 2. Frontend (React + Vite)
+```powershell
+cd frontend
+npm install
+npm run dev
+```
+Open application at: `http://localhost:5173`
+
